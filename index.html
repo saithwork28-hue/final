@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>My Portfolio</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a0a0a'/><text x='50' y='55' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-weight='900' font-size='44' letter-spacing='-2'>SA</text><circle cx='78' cy='70' r='6' fill='%2322c55e'/></svg>">
+<title>Saith Anwar | Digital Marketing Specialist in Tamil Nadu</title>
+<meta name="description" content="Saith Anwar is a Digital Marketing Specialist in Tamil Nadu offering SEO, Meta Ads, Google Ads, and SMM services. Helping businesses grow their online presence.">
+    <meta name="google-site-verification" content="PG1EaoIWQscj8S3oUBeT5iNslciQvos9Ugwg-JIHl7Y" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a0a0a'/><text x='50' y='55' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='sans-serif' font-weight='900' font-size='44' letter-spacing='-2'>SA</text><circle cx='78' cy='70' r='6' fill='%23ef4444'/></svg>">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <style>
   :root{
     --black:#0a0a0a;
@@ -100,7 +102,7 @@
   #loader .l-text span:nth-child(4){animation-delay:.24s;}
   #loader .l-text span:nth-child(5){animation-delay:.32s;}
   #loader .l-text span:nth-child(6){animation-delay:.40s;}
-  #loader .l-text span:nth-child(7){animation-delay:.48s;}https://codeflow-studio.gallerycdn.vsassets.io/extensions/codeflow-studio/claude-code-extension/0.1.10/1754885253618/Microsoft.VisualStudio.Services.Icons.Default
+  #loader .l-text span:nth-child(7){animation-delay:.48s;}
   #loader .l-text span:nth-child(8){animation-delay:.56s;}
   #loader .l-bar{
     width:160px;height:2px;
@@ -120,7 +122,7 @@
   nav{
     position:fixed;top:0;left:0;right:0;
     z-index:1000;
-    padding:24px 5%;
+    padding:12px 5%;
     display:flex;align-items:center;justify-content:space-between;
     transition:background .4s,padding .4s,box-shadow .4s;
   }
@@ -128,7 +130,7 @@
     background:rgba(255,255,255,.92);
     backdrop-filter:blur(12px);
     -webkit-backdrop-filter:blur(12px);
-    padding:16px 5%;
+    padding:10px 5%;
     box-shadow:0 1px 0 var(--line);
   }
   .nav-logo{
@@ -256,7 +258,8 @@
     min-height:100vh;
     display:flex;flex-direction:column;
     justify-content:center;
-    padding:0 5%;
+    padding:80px 5% 0;
+  padding:120px 5% 100px;
     position:relative;
     overflow:hidden;
   }
@@ -290,7 +293,7 @@
   }
   .hero-badge .dot{
     width:8px;height:8px;
-    background:#22c55e;
+    background:#ef4444;
     border-radius:50%;
     animation:pulse 2s infinite;
    
@@ -298,8 +301,8 @@
   
   
   @keyframes pulse{
-    0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,.4);}
-    50%{box-shadow:0 0 0 6px rgba(34,197,94,0);}
+    0%,100%{box-shadow:0 0 0 0 rgba(239,68,68,.4);}
+    50%{box-shadow:0 0 0 6px rgba(239,68,68,0);}
   }
 
   .hero-title{
@@ -1089,10 +1092,10 @@
     </div>
   </div>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./experience.html">Experience</a></li>
+    <li><a href="./projects.html">Projects</a></li>
+    <li><a href="./contact.html">Contact</a></li>
     <li><a href="" class="btn-hire-nav" onclick="openHireModal(event)">Hire Me ↗</a></li>
   </ul>
   <div class="hamburger" id="hamburger" onclick="toggleMenu()">
@@ -1102,10 +1105,10 @@
 
 <!-- Mobile menu -->
 <div class="mobile-menu" id="mobileMenu">
-  <a href="#about" onclick="closeMobileMenu()">About</a>
-  <a href="#experience" onclick="closeMobileMenu()">Experience</a>
-  <a href="#projects" onclick="closeMobileMenu()">Projects</a>
-  <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+  <a href="./about.html" onclick="closeMobileMenu()">About</a>
+  <a href="./experience.html" onclick="closeMobileMenu()">Experience</a>
+  <a href="./projects.html" onclick="closeMobileMenu()">Projects</a>
+  <a href="./" onclick="closeMobileMenu()">Contact</a>
   <a href="#" onclick="openHireModal(event);closeMobileMenu();" style="color:#888;">Hire Me ↗</a>
 </div>
 
@@ -1141,11 +1144,11 @@
     </h1>
 
     <p class="hero-subtitle reveal reveal-delay-2">
-      Passionate about helping brands grow through SEo , social media marketing ,paid ads , and modern website strategies .focused on creating impactful online presence 
+      I am Saith Anwar, a dedicated digital marketer passionate about helping brands grow through SEO, social media marketing, paid ads, and modern website strategies. Focused on creating an impactful online presence.
     </p>
 
     <div class="hero-cta reveal reveal-delay-3">
-      <a href="#projects" class="btn-primary-custom magnetic">
+      <a href="projects.html" class="btn-primary-custom magnetic">
         View My Work
         <span class="arrow"><i class="fas fa-arrow-up" style="font-size:.65rem;"></i></span>
       </a>
@@ -1225,10 +1228,10 @@
       </div>
 
       <p class="about-bio">
-        Hi, I'm <strong>Saith Anwar</strong> — a Digital Marketer I am Helping Buissness And Brands To Promote Their Services To Potential Customers
+        Hi, I'm <strong>Saith Anwar</strong> — a dedicated digital marketer helping businesses and brands promote their services to potential customers globally.
       </p>
       <p class="about-bio">
-        With over 1 years of professional experience across Digital Marketing, I've did SEO For Websites To appear top in search engines. 
+        With over 1 year of professional experience as a digital marketer, I've successfully optimized SEO for websites to achieve top rankings in search engines.
       </p>
 
       <!-- Skills -->
@@ -1286,8 +1289,8 @@
     <div class="exp-card reveal reveal-delay-1">
       <span class="exp-year">2026 — Present</span>
       <div class="exp-role">Digital Marketer Specialist</div>
-      <div class="exp-company"><i class="fas fa-building" style="font-size:.8rem;margin-right:6px;"></i>JCS Infotech, Chennai</div>
-      <p class="exp-desc">As a digital marketing specialist in jcs infotech to did seo for many clients and run meta ads</p>
+      <div class="exp-company"><i class="fas fa-building" style="font-size:.8rem;margin-right:6px;"></i>JCS Infotech, Nagercoil</div>
+      <p class="exp-desc">As a digital marketer at JCS Infotech, I successfully managed SEO for numerous clients and ran high-converting Meta ads.</p>
       <div class="exp-tags">
         <span class="exp-tag">SEO</span>
         <span class="exp-tag">SMM</span>
@@ -1300,7 +1303,7 @@
     <div class="exp-card reveal reveal-delay-2">
       <span class="exp-year">2025(dec) — 2026(mar)</span>
       <div class="exp-role">SEO Executive Intern</div>
-      <div class="exp-company"><i class="fas fa-building" style="font-size:.8rem;margin-right:6px;"></i>JClick solutions, Bangalore</div>
+      <div class="exp-company"><i class="fas fa-building" style="font-size:.8rem;margin-right:6px;"></i>JClick solutions, Nagercoil</div>
       <p class="exp-desc">During my intern period i learn and gain knowledge abt digital marketing.</p>
       <div class="exp-tags">
         <span class="exp-tag">Google Search console</span>
@@ -1319,10 +1322,10 @@
 <section id="projects">
   <div class="projects-header">
     <div>
-      <span class="section-tag reveal">Portfolio</span>
-      <h2 class="section-title reveal reveal-delay-1">Selected <em>Projects</em></h2>
+      <span class="section-tag reveal">Saith Anwar's Portfolio</span>
+      <h2 class="section-title reveal reveal-delay-1">Digital Marketer <em>Projects</em></h2>
     </div>
-    <a href="#" class="projects-link reveal" onclick="document.getElementById('more-projects').style.display='flex'; this.style.display='none'; return false;">View All Projects <i class="fas fa-arrow-down"></i></a>
+    <a href="projects.html" class="projects-link reveal">View All Projects <i class="fas fa-arrow-right"></i></a>
   </div>
 
   <div class="row g-4">
@@ -1557,11 +1560,11 @@
       </p>
 
       <div class="contact-links">
-        <a href="mailto:you@email.com" class="contact-link">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=saithwork28@gmail.com" target="_blank" class="contact-link">
           <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
           <div>
             <div style="font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:2px;">Email</div>
-            <div>saithanwar65@email.com</div>
+            <div>saithwork28@gmail.com</div>
           </div>
           <i class="fas fa-arrow-right" style="margin-left:auto;opacity:.4;font-size:.8rem;"></i>
         </a>
@@ -1805,14 +1808,39 @@ function submitEnquiry(e) {
   e.preventDefault();
   const email = document.getElementById('enq-email').value;
   const project = document.getElementById('enq-project').value;
+  const submitBtn = e.target.querySelector('.btn-submit');
+  const originalBtnHtml = submitBtn.innerHTML;
   
-  /* Open email client to send it */
-  const subject = encodeURIComponent("New Project Enquiry");
-  const body = encodeURIComponent(`Hello Saith,\n\nI am interested in a new project.\n\nMy Email: ${email}\n\nProject Details:\n${project}`);
-  window.location.href = `mailto:saithanwar65@email.com?subject=${subject}&body=${body}`;
+  // Show loading state
+  submitBtn.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Sending...';
+  submitBtn.disabled = true;
 
-  showToast('✅ Request drafted! Check your email client to send.');
-  e.target.reset();
+  // Send email directly using FormSubmit
+  fetch("https://formsubmit.co/ajax/saithwork28@gmail.com", {
+    method: "POST",
+    headers: { 
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    },
+    body: JSON.stringify({
+      email: email,
+      message: project,
+      _subject: "New Project Request from Portfolio!"
+    })
+  })
+  .then(response => response.json())
+  .then(data => {
+    showToast('✅ Message sent successfully!');
+    e.target.reset();
+  })
+  .catch((error) => {
+    showToast('❌ Failed to send message. Please try again.');
+    console.error('FormSubmit error:', error);
+  })
+  .finally(() => {
+    submitBtn.innerHTML = originalBtnHtml;
+    submitBtn.disabled = false;
+  });
 }
 
 /* ── Toast ── */
